@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfólio 3</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--PRO TITULO PORTFOLIO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Pacifico&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="img/logo.jpg" class="imglogo">
+        </div>
+        <!-- NAVEGAÇÃO MENU -->
+        <ul class="nav-links">
+            <!-- CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVEGAÇÃO MENUS -->
+            <div class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="logaritmo.html">Logaritmos</a></li>
+                <li class="services">
+                    <a href="funcao.html">Funções Logaritmicas</a>
+                </li>
+                <li><a href="financeira.html">Matemática Financeira</a></li>
+                <li><a href="conclusao.html">Conclusão</a></li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <h1>Matemática Financeira </h1>
+
+    <p>Enquanto você lê, esculte essa música:
+        <br>
+        <audio controls src="audio/yt5s.io - BTS - RUN BTS (Tradução_ legendado) (128 kbps).mp3" type="audio/ogg" ></audio></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;A matemática financeira é a área da matemática que estuda a equivalência de capitais no
+        tempo,
+        ou seja, como se comporta o valor do dinheiro no decorrer do tempo. Sendo um área aplicada da
+        Matemática, estuda
+        diversas operações ligadas ao dia a dia das pessoas. Por esse motivo,
+        conhecer suas aplicações é fundamental.</p>
+
+    <h2 class="subs_financeira">Juros Simples </h2>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;O juro simples é uma taxa previamente definida e que incide somente sobre o valor
+        inicial.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Veja a baixo as duas fórmulas do juros simples:</p>
+
+    <div id="um">
+        <p class="formula"><b>J = C * i * n</b></p>
+        <p>J=juros
+            <br>
+            C=capital inicial
+            <br>
+            i=taxa de juros
+            <br>
+            n=prazo
+            <br>
+        </p>
+    </div>
+    <div id="dois">
+        <p class="formula"><b>M = C (1 + i * n)</b>
+        </p>
+        <p>
+
+            O Montante, dedica-se a estudar <br>
+            e controlar a variação sofrida<br>
+            por uma quantia investida ao longo
+            <br> do tempo.
+        </p>
+
+    </div>
+
+    <div id="tres"><img src="img/finaceira.jfif" ></div>
+
+    <br>
+    <h2 class="subs_financeira">Exercícios</h2>
+<p>1.(Vunesp) Num balancete de uma empresa consta que certo 
+    capital foi aplicado a uma taxa de 30% ao ano durante 8 meses, 
+    rendendo juros simples no valor de R$ 192,00. Quanto foi o capital aplicado?</p>
+    <div id="quatro">i = 30% ao ano;
+<br>
+        n = 8 meses;
+        <br>
+        J = 192,00
+    <br>
+    i = 2,5% a.m</div>
+        <div id="quatro">J = C · i · n
+<br>
+            192 = C · 0,025 · 8
+    <br>        
+            192 = 0,2 C
+        <br>    
+            C = 192 / 0,2
+            <br>
+            C = 960
+            
+            </div>
+
+            <p>2.Um capital foi investido a juros simples com uma taxa 
+                de 12% a.a. Durante quanto tempo esse capital deve 
+                ficar investido para que o montante seja o quádruplo do capital?</p>
+                <div id="quatro">M = C + J
+<br>
+                    4C = C + J
+    <br>                
+                    4C – C = J
+        <br>            
+                    3C = J</div>
+                    <div id="quatro">i = 12% a.a
+                        <br>
+
+                        J = 3C</div>
+                        <div id="quatro">J=C*i*n
+                            <br>
+                            3C= C * 0,12 * n <br>
+                            3C/C = 0,12 * n <br>
+                            3 = 0,12n<br>
+                            3/0,12 = n <br>
+                            n = 25 anos
+
+                        </div>
+    <br>
+   <br>
+
+    <h2 class="subs_financeira">Juros Composto</h2>
+
+    <p> &nbsp;&nbsp;&nbsp;&nbsp; Os juros compostos são aqueles nos quais os juros do mês são incorporados ao capital.
+        Com uma taxa assim, o valor cresce muito
+        mais rápido do que com juros simples.
+        No caso de uma dívida, é perigoso. No caso de um investimento, é excelente.</p>
+
+
+
+    <div id="um">
+        <p class="formula"><b>M = C(1 + i)^n</b></p>
+        <p>M=montante<br>
+        C=capital<br>
+    i=taxa de juros compostos<br>
+n=números de períodos</p>
+    </div>
+<div id="dois">
+      <p> A partir dessa fórmula, para <br>
+        encontrar o <b>i</b> chegamos a<br>
+         uma potência, e para o <b>n</b> <br>
+          usamos normalmente o <b>log</b>.</p>
+           
+        </div>
+
+        <div id="tres"><img src="img/juros.jfif"></div>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp; Obs: o <b>n</b> deve estar de acordo com a unidade de medida do <b>i</b>, se em 
+        semestre, devemos converter os dois em semestre, se em dias, os dois
+         devem estar em dias, e assim por diante.</p>
+
+         <br>
+         <h2 class="subs_financeira">Exercícios</h2>
+         <p>1.Qual é a taxa de juros aplicada ao ano
+             para que um capital de R$ 8000 gere juros 
+             de R$ 3520, em dois anos, a juros compostos?</p>
+             <div id="quatro">J = 3520
+<br>
+                C = 8000
+    <br>            
+                t = 2
+            <br>
+                M = 8000 + 3520 = 11.520</div>
+
+                <div id="quatro">M = C(1 + i)n
+<br>
+                    11.520 = 8000 (1 + i)2
+    <br>                
+                    11.520 : 8000 = (1 + i)²
+        <br>            
+                    1,44 = (1 + i)²
+            <br>        
+                    √1,44 = 1 + i
+                <br>    
+                    1,2 = 1 + i
+                    <br>
+                                        1,2 – 1 = i<br>
+                    
+                    i = 0,2</div>
+                    <br>
+
+                    <p>2.Um capital de R$ 1500 foi aplicado
+                         a juros compostos com taxa percentual 
+                         de 2% a.a. Qual será o montante daqui a 2 anos?</p>
+                         <div id="quatro">C = 1500
+<br>
+                            i = 2% a.a.
+    <br>                        
+                            t = 2 anos</div>
+
+                            <div id="quatro">M = C(1 + i)n
+<br>
+                                M = 1500 (1 + 0,02)²
+   <br>                             
+                                M = 1500 (1,02)²
+       <br>                         
+                                M = 1500 · 1,0404
+           <br>                     
+                                M = 1560,60</div>
+
+         
+
+         <h2 class="subs">Comentário</h2>
+
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;Eu tive muita facilidade em aprender esse conteúdo, não havendo nenhuma dúvida,
+             ainda arrisco em dizer que foi o mais fácil desse ano letivo. 
+            Também foi algo que gostei de estudar e acho que deveria ser trabalhado ainda no fundamental.
+            As fórmulas são simples e as questões são fáceis de compreender e é algo que te agrega na vida,
+             pois você entende o mínimo que envolve investimentos e emprestimos.</p>
+        <br>
+
+             <div class="centro">
+
+                <a   href="financeira.html"><img src="img/seta.png" class="seta"></a>
+                <p>Clique na seta para voltar ao topo da página</p>
+            </div>
+
+</body>
+
+</html>
